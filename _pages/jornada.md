@@ -1,10 +1,9 @@
 ---
 title: "Jornada de Investigación y Divulgación en Información y Cómputo Cuántico"
 layout: single
-permalink: /jornada
+permalink: /jornada/
 author_profile: false
 classes:
-  - wide
   - no-masthead
 breadcrumbs: false
 toc: true
