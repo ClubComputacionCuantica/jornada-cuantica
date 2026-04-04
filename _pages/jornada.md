@@ -1,16 +1,21 @@
 ---
 title: "Jornada de Investigación y Divulgación en Información y Cómputo Cuántico"
 layout: single
-permalink: /jornada
+permalink: /
 author_profile: false
 classes:
-  - wide
   - no-masthead
 breadcrumbs: false
 toc: true
 header:
   image: /assets/images/event-banner.jpeg
+
+sidebar:
+  - title: ""
 ---
+
+## Presentación
+
 Les damos la bienvenida a la **Jornada de Investigación y Divulgación en Información y Cómputo Cuántico**, un espacio académico orientado a la presentación, discusión y articulación de investigaciones en el área.
 
 Dirigido a investigadores, estudiantes de posgrado, estudiantes avanzados de licenciatura, grupos de investigación emergentes y público interesado en información y cómputo cuántico.
@@ -29,7 +34,6 @@ Dirigido a investigadores, estudiantes de posgrado, estudiantes avanzados de lic
 | **Modalidad** | Presencial |
 | **Sede** | Auditorio Dr. Víctor Flores Maldonado, [ESFM - IPN](https://www.esfm.ipn.mx/), Ciudad de México    |
 
-## Presentación
 
 ### Objetivo general
 
@@ -45,7 +49,7 @@ Consolidar un espacio académico para la presentación, discusión y articulaci�
 
 Se invita a la comunidad a participar en la sesión de pósters de la Jornada.
 
-La convocatoria está dirigida a contribuciones en información y cómputo cuántico, incluyendo trabajos en progreso, resultados preliminares y líneas de investigación abiertas. Se busca favorecer el intercambio académico y la discusión de ideas en desarrollo dentro de la comunidad.
+La convocatoria está dirigida a contribuciones en información y cómputo cuántico, incluyendo investigaciones en progreso, resultados preliminares y trabajos de divulgación. Se busca favorecer el intercambio académico y la discusión de ideas en desarrollo dentro de la comunidad.
 
 Ejes temáticos:
 - *Algoritmos y software*

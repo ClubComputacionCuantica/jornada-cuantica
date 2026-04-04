@@ -10,7 +10,7 @@
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
-remote_theme: "mmistakes/minimal-mistakes"
+remote_theme: "mmistakes/minimal-mistakes@4.28.0"
 minimal_mistakes_skin    : "air"
 
 # Site Settings
@@ -18,14 +18,15 @@ locale                   : "es-MX"
 title                    : "Club de Computación Cuántica"
 title_separator          : "|"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Club de Computación Cuántica"
-description              : "An amazing website."
-url                      : "https://ClubComputacionCuantica.github.io"
-repository               : "ClubComputacionCuantica/ClubComputacionCuantica.github.io"
+name                     : "Jornada de Investigación y Divulgación en Información y Cómputo Cuántico"
+description              : "Sitio web de la Jornada de Investigación y Divulgación en Información y Cómputo Cuántico"
+url: "https://jornada-cuantica.com.mx"
+baseurl: ""
+repository               : "ClubComputacionCuantica/jornada-cuantica"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "/assets/images/88x88_rounded.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
-breadcrumbs              : true
+breadcrumbs              : false
 words_per_minute         : 200
 date_format              : "%d-%B-%Y"
 enable_copy_code_button  : true
@@ -228,11 +229,13 @@ pagination:
 
 # Plugins (previously gems:)
 plugins:
+  - jekyll-remote-theme
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
+  
 
 # mimic GitHub Pages with --safe
 whitelist:
