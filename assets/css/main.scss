@@ -1,9 +1,56 @@
 ---
-# Only the main Sass file needs front matter (the dashes are enough)
+# Only the main Sass file needs front matter
 search: false
 ---
 
 @charset "utf-8";
 
-@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
-@import "minimal-mistakes"; // main partials
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
+@import "minimal-mistakes";
+
+.no-masthead .masthead {
+  display: none !important;
+}
+
+.no-masthead .initial-content {
+  padding-top: 0 !important;
+}
+
+.no-masthead .page__title {
+  display: none;
+}
+
+.no-masthead .page__content {
+  font-size: 0.8em;
+}
+
+.no-masthead .page__hero-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+@media (max-width: 1024px) {
+  .no-masthead .page__hero {
+    padding: 0;
+  }
+
+  .no-masthead .page__hero-image {
+    width: 100%;
+    height: auto;
+    max-height: none;
+    object-fit: contain;
+  }
+}
+
+.no-masthead .page__content {
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+.no-masthead .page__content,
+.no-masthead .page__content h1,
+.no-masthead .page__content h2,
+.no-masthead .page__content h3,
+.no-masthead .page__content h4 {
+  font-family: Georgia, "Times New Roman", serif;
+}
