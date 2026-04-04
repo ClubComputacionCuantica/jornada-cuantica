@@ -23,9 +23,6 @@ var store = [{
     "title": "Sitio en mantenimiento",
     "excerpt":"\r   Volveremos pronto \r ","url": "http://localhost:4000/"
   },{
-    "title": "Jornada de Investigación y Divulgación en Información y Cómputo Cuántico",
-    "excerpt":"Les damos la bienvenida a la Jornada de Investigación y Divulgación en Información y Cómputo Cuántico, un espacio académico orientado a la presentación, discusión y articulación de investigaciones en el área. Dirigido a investigadores, estudiantes de posgrado, estudiantes avanzados de licenciatura, grupos de investigación emergentes y público interesado en información...","url": "http://localhost:4000/jornada/"
-  },{
     "title": "Organizadores",
     "excerpt":"### 👥 Organizadores del Club Nuestro club es liderado por un estudiantes apasionados por la **computación cuántica**, dedicados a crear un espacio de aprendizaje, discusión y colaboración. - **Rob Navarro** – Coordinador del club ⟡ Enfocado en el estudio de redes cuánticas y computación cuántica. Coordina el club promoviendo un...","url": "http://localhost:4000/organizadores"
   },{
