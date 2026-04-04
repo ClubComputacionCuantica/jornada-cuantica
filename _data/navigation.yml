@@ -1,10 +1,13 @@
 # main links
 main:
-  - title: "Sobre nosotros"
-    url: /sobre-nosotros
-  - title: "Talleres"
-    url: /talleres
+  # - title: "Sobre nosotros"
+  #   url: /sobre-nosotros/
+
+  # - title: "Talleres"
+  #   url: /talleres/
+
   - title: "Notas"
     url: https://clubcomputacioncuantica.github.io/notas
-  - title: "Sudoku NISQ"
-    url: /sudoku-nisq
+
+  # - title: "Sudoku NISQ"
+  #   url: /sudoku/
