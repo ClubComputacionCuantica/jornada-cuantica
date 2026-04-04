@@ -6,8 +6,8 @@ main:
   # - title: "Talleres"
   #   url: /talleres/
 
-  - title: "Notas"
-    url: https://clubcomputacioncuantica.github.io/notas
+  # - title: "Notas"
+  #   url: https://clubcomputacioncuantica.github.io/notas
 
   # - title: "Sudoku NISQ"
   #   url: /sudoku/
