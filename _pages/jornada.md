@@ -52,6 +52,8 @@ Se invita a la comunidad a participar en la sesión de pósters de la Jornada.
 
 La convocatoria está dirigida a contribuciones en información y cómputo cuántico, incluyendo investigaciones en progreso, resultados preliminares y trabajos de divulgación. Se busca favorecer el intercambio académico y la discusión de ideas en desarrollo dentro de la comunidad.
 
+La modalidad de presentación consiste en la exhibición de un póster durante la sesión correspondiente. Al menos una persona autora deberá estar presente para la exposición y discusión del trabajo.
+
 ### Ejes temáticos
 
 - *Algoritmos y Software*
@@ -70,8 +72,6 @@ La convocatoria está dirigida a contribuciones en información y cómputo cuán
 Los pósters serán revisados por el comité científico con base en pertinencia temática, claridad expositiva y calidad académica general.
 
 ### Recomendaciones para la elaboración del póster
-
-La modalidad de presentación consiste en la exhibición de un póster durante la sesión correspondiente. Al menos una persona autora deberá estar presente para la exposición y discusión del trabajo.
 
 Aunque el formato es libre, se recomienda que el póster cumpla con criterios básicos de claridad académica y legibilidad. En particular, se sugiere:
 
