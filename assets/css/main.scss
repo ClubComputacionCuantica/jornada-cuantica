@@ -133,7 +133,7 @@ table,
 .page__content table,
 .no-masthead .page__content table {
   margin: 0 auto;
-  width: min(100%, 900px);
+  width: 100%;
   max-width: 100%;
   table-layout: fixed;
 }
@@ -171,8 +171,19 @@ table,
 .organizers-list li {
   padding: 1rem 0;
   border-bottom: 1px solid #e6e6e6;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
 }
 
 .organizers-list li:last-child {
   border-bottom: none;
+}
+
+/* Mobile adjustments for organizers list */
+@media (max-width: 768px) {
+  .organizers-list li {
+    padding: 0.875rem 0;
+    font-size: 0.9em;
+    word-break: break-word;
+  }
 }
