@@ -113,12 +113,15 @@ Estas plantillas son únicamente una referencia y no constituyen un formato obli
 
 ## Comité organizador
 
-**Chair:** Roberto Navarro Arenas - `rnavarroa1600@alumno.ipn.mx`\\
-José Alberto Guzmán Vega - `jguzmanv1501@alumno.ipn.mx`\\
-Aarón Ortiz Mendoza - `aortizm1300@alumno.ipn.mx`\\
-David Jafet Zaleta Garcia - `dzaletag1800@alumno.ipn.mx`\\
-Jorge Gael López Figueras - `jlopezf2002@alumno.ipn.mx`\\
-Juan Carlos Jiménez Cervantes - `jjimenezc1200@alumno.ipn.mx`
+**Chair:** Roberto Navarro Arenas - `rnavarroa1600@alumno.ipn.mx`
+
+<ul class="organizers-list">
+<li>José Alberto Guzmán Vega - <code>jguzmanv1501@alumno.ipn.mx</code></li>
+<li>Aarón Ortiz Mendoza - <code>aortizm1300@alumno.ipn.mx</code></li>
+<li>David Jafet Zaleta Garcia - <code>dzaletag1800@alumno.ipn.mx</code></li>
+<li>Jorge Gael López Figueras - <code>jlopezf2002@alumno.ipn.mx</code></li>
+<li>Juan Carlos Jiménez Cervantes - <code>jjimenezc1200@alumno.ipn.mx</code></li>
+</ul>
 
 ### Contacto
 
