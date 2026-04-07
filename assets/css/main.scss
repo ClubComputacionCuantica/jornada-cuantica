@@ -152,26 +152,21 @@ table,
   text-align: left;
 }
 
-/* Mobile font size increase - 10% larger on mobile devices */
 @media (max-width: 768px) {
-  body,
-  .page__content,
-  .page__content p,
-  .page__content h1,
-  .page__content h2,
-  .page__content h3,
-  .page__content h4,
-  .page__content h5,
-  .page__content h6,
-  .page__content ul,
-  .page__content ol,
-  .page__content li {
-    font-size: 1.10em;
+  .no-masthead .page__content,
+  .no-masthead .page__content p,
+  .no-masthead .page__content ul,
+  .no-masthead .page__content ol,
+  .no-masthead .page__content li {
+    font-size: 1.05em !important;
   }
 
-  /* Reduce TOC font size on mobile */
+  .organizers-list li {
+    font-size: 1em !important;
+  }
+
   .toc__menu {
-    font-size: 0.65em;
+    font-size: 0.6em !important;
   }
 }
 
@@ -196,8 +191,8 @@ table,
 /* Mobile adjustments for organizers list */
 @media (max-width: 768px) {
   .organizers-list li {
-    padding: 0.875rem 0;
-    font-size: 0.9em;
+    padding: 0.8rem 0;
+    font-size: 0.8em;
     word-break: break-word;
   }
 }

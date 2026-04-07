@@ -32,7 +32,8 @@ Dirigido a investigadores, estudiantes de posgrado, estudiantes avanzados de lic
 | Información | Detalle |
 |---|---|
 | **Modalidad** | Presencial |
-| **Fecha y horario** | 5 de junio de 2026, 9:00 - 15:00 h |
+| **Fecha** | 5 de junio de 2026 |
+| **Horario** | Programa detallado por anunciar |
 | **Sede** | Auditorio Dr. Víctor Flores Maldonado, [Edificio 9, ESFM - IPN, Ciudad de México](https://maps.app.goo.gl/xfYBHToRYQnLZkPA7)    |
 
 ### Objetivo general
@@ -45,6 +46,12 @@ Consolidar un espacio académico para la presentación, discusión, divulgación
 - Facilitar la interacción entre grupos de investigación del instituto, universidades invitadas y distintos sectores de la comunidad académica.
 - Promover la creación de colaboraciones científicas y fortalecer la comunidad local en información y cómputo cuántico.
 - Impulsar la apropiación y difusión de conceptos, métodos y aplicaciones del área entre estudiantes y público no especializado.
+
+## Conferencias Plenarias
+
+La jornada contará con ponencias invitadas por parte de especialistas en información y cómputo cuántico.
+
+> Muy pronto se anunciarán las conferencias plenarias.
 
 ## Call for Posters
 
@@ -99,17 +106,19 @@ Estas plantillas son únicamente una referencia y no constituyen un formato obli
 
 ## Programa (Preliminar)
 
-| Horario       | Actividad                  |
-|---------------|----------------------------|
-| 9:00 AM - 9:30 AM | Apertura                  |
-| 9:30 AM - 10:45 AM | Conferencia plenaria I    |
-| 11:00 AM - 12:15 PM | Conferencia plenaria II   |
-| 12:30 PM - 2:30 PM | Sesión de pósters y café  |
-| 2:30 PM - 3:00 PM | Cierre                    |
+La jornada contempla las siguientes actividades:
+
+- Apertura
+- Conferencias plenarias
+- Sesión de pósters
+- Espacio de café e intercambio académico
+- Cierre
+
+> El programa detallado y horarios específicos por anunciar.
 
 ## Comité científico
 
-*Por anunciar*
+> Por anunciar.
 
 ## Comité organizador
 
