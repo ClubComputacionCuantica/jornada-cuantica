@@ -120,22 +120,36 @@ search: false
   }
 }
 
-/* Center all tables */
-.page__content table th,
-.page__content table td,
-.no-masthead .page__content table th,
-.no-masthead .page__content table td {
+/* Center all tables with explicit rules */
+.page__content {
   text-align: center;
-  word-break: break-word;
 }
 
 table,
 .page__content table,
 .no-masthead .page__content table {
-  margin: 0 auto;
-  width: 100%;
-  max-width: 100%;
-  table-layout: fixed;
+  display: table !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  margin: 1em auto !important;
+  width: auto !important;
+  max-width: 100% !important;
+  table-layout: auto !important;
+}
+
+.page__content table th,
+.page__content table td,
+.no-masthead .page__content table th,
+.no-masthead .page__content table td {
+  text-align: center !important;
+  word-break: break-word;
+}
+
+.page__content p,
+.page__content ul,
+.page__content ol,
+.page__content li {
+  text-align: left;
 }
 
 /* Mobile font size increase - 10% larger on mobile devices */
