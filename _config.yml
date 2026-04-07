@@ -118,17 +118,7 @@ author:
       # url: "https://instagram.com/"
 
 # Site Footer
-footer:
-  links:
-    - label: "Discord"
-      icon: "fab fa-fw fa-discord"
-      url: https://discord.gg/4Js4X82Ky5
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: https://github.com/ClubComputacionCuantica
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url:
+footer: {}
     
 
 
