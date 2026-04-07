@@ -120,12 +120,17 @@ search: false
   }
 }
 
+/* Center all tables */
+.page__content table th,
+.page__content table td,
 .no-masthead .page__content table th,
 .no-masthead .page__content table td {
   text-align: center;
   word-break: break-word;
 }
 
+table,
+.page__content table,
 .no-masthead .page__content table {
   margin: 0 auto;
   width: min(100%, 900px);
@@ -148,6 +153,11 @@ search: false
   .page__content ol,
   .page__content li {
     font-size: 1.10em;
+  }
+
+  /* Reduce TOC font size on mobile */
+  .toc__menu {
+    font-size: 0.65em;
   }
 }
 
