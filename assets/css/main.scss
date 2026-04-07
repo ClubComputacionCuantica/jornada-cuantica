@@ -129,3 +129,21 @@ search: false
   margin: 0 auto;
   width: fit-content;
 }
+
+/* Mobile font size increase - 15% larger on mobile devices */
+@media (max-width: 768px) {
+  body,
+  .page__content,
+  .page__content p,
+  .page__content h1,
+  .page__content h2,
+  .page__content h3,
+  .page__content h4,
+  .page__content h5,
+  .page__content h6,
+  .page__content ul,
+  .page__content ol,
+  .page__content li {
+    font-size: 1.15em;
+  }
+}
