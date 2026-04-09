@@ -130,6 +130,7 @@ La jornada contempla las siguientes actividades:
 <li>David Jafet Zaleta Garcia - <code>dzaletag1800@alumno.ipn.mx</code></li>
 <li>Jorge Gael López Figueras - <code>jlopezf2002@alumno.ipn.mx</code></li>
 <li>Juan Carlos Jiménez Cervantes - <code>jjimenezc1200@alumno.ipn.mx</code></li>
+<li>Dr. Raymundo Santana Carrillo<code> </code></li>
 </ul>
 
 ### Contacto
