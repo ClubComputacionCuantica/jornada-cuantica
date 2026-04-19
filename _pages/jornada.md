@@ -12,8 +12,27 @@ header:
 
 sidebar:
   - title: "" 
----
 
+ponentes:
+  - name: "Claudia Zendejas-Morales"
+    role: "Estudiante de posgrado en Quantum Information Science"
+    affiliation: "University of Copenhagen / Technical University of Denmark (DTU)"
+    talk_title: "Cuando el kernel cuántico deja de aprender: concentración exponencial y estrategias de mitigación"
+    duration: "45-50 minutos"
+    image_path: "/assets/images/Claudia.jpeg"
+    linkedin: "https://www.linkedin.com/in/clauziuz/"
+    bio: "Claudia Zendejas-Morales es física e ingeniera en computación, reconocida en el *Quantum 100* de la UNESCO (IYQ 2025). Posee dos MicroMasters en Tecnologías Cuánticas por Purdue University y es desarrolladora certificada de Qiskit. Como miembro activo de QWorld, ha coordinado programas globales como QClass23/24 y actualmente co-lidera el área de QEducation. Sus intereses de investigación abarcan la información cuántica teórica, el aprendizaje automático cuántico (QML) y los fundamentos matemáticos de la computación cuántica, centrando actualmente sus estudios de posgrado en Copenhague."
+
+  - name: "Dr. Salvador Elías Venegas Andraca"
+    role: "Investigador Principal del Unconventional Computing Lab"
+    affiliation: "Tecnológico de Monterrey / UNAM"
+    talk_title: "Computación cuántica: de la investigación científica al mercado de alta tecnología"
+    duration: "50 minutos"
+    image_path: "/assets/images/Salvador.jpg"
+    linkedin: "https://www.linkedin.com/in/salvador-elias-venegas-andraca-7a31b14/"
+    bio: "Salvador Elías Venegas Andraca es pionero de la computación cuántica en México y una autoridad mundial en el área. Doctor por la Universidad de Oxford con estancia postdoctoral en Harvard, es Investigador Nivel 3 del SNI y miembro del Quantum Economy Network del Foro Económico Mundial. Es autor de libros fundamentales como *Quantum Walks for Computer Scientists* y cuenta con más de tres mil citas en su campo. Su labor integra la academia y la industria, centrándose en algoritmos cuánticos, caminatas cuánticas, ciberseguridad y el análisis del mercado emergente de tecnologías cuánticas de alta especialidad."
+
+---
 ## Presentación
 
 Les damos la bienvenida a la **Jornada de Investigación y Divulgación en Información y Cómputo Cuántico**, un espacio académico orientado a la presentación, discusión y articulación de investigaciones en el área.
@@ -51,8 +70,38 @@ Consolidar un espacio académico para la presentación, discusión, divulgación
 
 La jornada contará con ponencias invitadas por parte de especialistas en información y cómputo cuántico.
 
-> Muy pronto se anunciarán las conferencias plenarias.
+<div class="ponentes-container">
+  {% for ponente in page.ponentes %}
+    <div class="ponente-card" style="display: flex; flex-wrap: wrap; gap: 25px; margin-bottom: 50px; align-items: flex-start; background-color: rgba(0,0,0,0.02); padding: 20px; border-radius: 8px;">
+      
+      <div style="flex-shrink: 0; width: 160px; text-align: center;">
+        {% if ponente.image_path %}
+          <img src="{{ ponente.image_path | relative_url }}" alt="Foto de {{ ponente.name }}" style="width: 160px; height: 160px; border-radius: 50%; object-fit: cover; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin-bottom: 10px;">
+        {% endif %}
+        
+        {% if ponente.linkedin %}
+          <a href="{{ ponente.linkedin }}" target="_blank" rel="noopener noreferrer" style="font-size: 0.9em; text-decoration: none;">🔗 LinkedIn</a>
+        {% endif %}
+      </div>
 
+      <div class="ponente-info" style="flex: 1; min-width: 300px;">
+        <h3 style="margin-top: 0; margin-bottom: 5px;">{{ ponente.name }}</h3>
+        <p style="margin-top: 0; font-size: 0.95em; color: #555;">
+          <strong>{{ ponente.role }}</strong><br>
+          <em>{{ ponente.affiliation }}</em>
+        </p>
+        
+        <div style="background-color: rgba(0,0,0,0.04); padding: 12px 15px; border-left: 4px solid #007acc; margin: 15px 0;">
+          <p style="margin: 0;"><strong>Charla:</strong> {{ ponente.talk_title }}</p>
+          <p style="margin: 0; font-size: 0.9em; margin-top: 5px;">⏱️ <strong>Duración:</strong> {{ ponente.duration }}</p>
+        </div>
+
+        <p style="text-align: justify; margin-bottom: 0;">{{ ponente.bio }}</p>
+      </div>
+
+    </div>
+  {% endfor %}
+</div>
 ## Call for Posters
 
 Se invita a la comunidad a participar en la sesión de pósters de la Jornada.
