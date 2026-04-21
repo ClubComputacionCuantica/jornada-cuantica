@@ -29,8 +29,17 @@ ponentes:
     talk_title: "Computación cuántica: de la investigación científica al mercado de alta tecnología"
     duration: "50 minutos"
     image_path: "/assets/images/Salvador.jpg"
-    linkedin: "https://www.linkedin.com/in/salvador-elias-venegas-andraca-7a31b14/"
+    linkedin: "https://www.linkedin.com/in/venegasandraca/"
     bio: "Salvador Elías Venegas Andraca es pionero de la computación cuántica en México y una autoridad mundial en el área. Doctor por la Universidad de Oxford con estancia postdoctoral en Harvard, es Investigador Nivel 3 del SNI y miembro del Quantum Economy Network del Foro Económico Mundial. Es autor de libros fundamentales como *Quantum Walks for Computer Scientists* y cuenta con más de tres mil citas en su campo. Su labor integra la academia y la industria, centrándose en algoritmos cuánticos, caminatas cuánticas, ciberseguridad y el análisis del mercado emergente de tecnologías cuánticas de alta especialidad."
+
+  - name: "Dr. Javier Andres Orduz Ducuara"
+    role: "Profesor"
+    affiliation: "FES Acatlán UNAM"
+    talk_title: "Criptografía en la era cuántica: Una perspectiva matemática"
+    duration: "45-50 minutos"
+    image_path: "/assets/images/Javier.jpeg"
+    github: "https://jaorduz.github.io/" 
+    bio: "El Dr. Javier Orduz es un investigador especializado en computación cuántica, inteligencia artificial y ciencia de datos. Su trabajo se enfoca en transformar conceptos matemáticos complejos en soluciones prácticas para sistemas inteligentes y seguridad digital. Como impulsor de iniciativas para acercar a más personas estas tecnologías, fundó QMexico una comunidad que promueve la educación cuántica en América Latina, y Qaldas, donde se desarrollan proyectos de IA y computación avanzada. Su labor integra la investigación y la docencia para inspirar a nuevas generaciones en ciencias y tecnología."
 
 ---
 ## Presentación
@@ -78,11 +87,17 @@ La jornada contará con ponencias invitadas por parte de especialistas en inform
         {% if ponente.image_path %}
           <img src="{{ ponente.image_path | relative_url }}" alt="Foto de {{ ponente.name }}" style="width: 160px; height: 160px; border-radius: 50%; object-fit: cover; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin-bottom: 10px;">
         {% endif %}
-        
-        {% if ponente.linkedin %}
-          <a href="{{ ponente.linkedin }}" target="_blank" rel="noopener noreferrer" style="font-size: 0.9em; text-decoration: none;">🔗 LinkedIn</a>
-        {% endif %}
-      </div>
+
+        <div style="display: flex; flex-direction: column; gap: 5px; align-items: center;">
+          {% if ponente.linkedin %}
+            <a href="{{ ponente.linkedin }}" target="_blank" rel="noopener noreferrer" style="font-size: 0.9em; text-decoration: none; color: #0077b5;">LinkedIn</a>
+          {% endif %}
+
+          {% if ponente.github %}
+            <a href="{{ ponente.github }}" target="_blank" rel="noopener noreferrer" style="font-size: 0.9em; text-decoration: none; color: #333;"> GitHub / Web</a>
+          {% endif %}
+        </div>
+      </div> 
 
       <div class="ponente-info" style="flex: 1; min-width: 300px;">
         <h3 style="margin-top: 0; margin-bottom: 5px;">{{ ponente.name }}</h3>
@@ -90,7 +105,7 @@ La jornada contará con ponencias invitadas por parte de especialistas en inform
           <strong>{{ ponente.role }}</strong><br>
           <em>{{ ponente.affiliation }}</em>
         </p>
-        
+
         <div style="background-color: rgba(0,0,0,0.04); padding: 12px 15px; border-left: 4px solid #007acc; margin: 15px 0;">
           <p style="margin: 0;"><strong>Charla:</strong> {{ ponente.talk_title }}</p>
           <p style="margin: 0; font-size: 0.9em; margin-top: 5px;">⏱️ <strong>Duración:</strong> {{ ponente.duration }}</p>
