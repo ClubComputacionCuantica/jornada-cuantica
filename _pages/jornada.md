@@ -29,7 +29,7 @@ ponentes:
     talk_title: "Computación cuántica: de la investigación científica al mercado de alta tecnología"
     duration: "50 minutos"
     image_path: "/assets/images/Salvador.jpg"
-    linkedin: "https://www.linkedin.com/in/salvador-elias-venegas-andraca-7a31b14/"
+    linkedin: "https://www.linkedin.com/in/venegasandraca/"
     bio: "Salvador Elías Venegas Andraca es pionero de la computación cuántica en México y una autoridad mundial en el área. Doctor por la Universidad de Oxford con estancia postdoctoral en Harvard, es Investigador Nivel 3 del SNI y miembro del Quantum Economy Network del Foro Económico Mundial. Es autor de libros fundamentales como *Quantum Walks for Computer Scientists* y cuenta con más de tres mil citas en su campo. Su labor integra la academia y la industria, centrándose en algoritmos cuánticos, caminatas cuánticas, ciberseguridad y el análisis del mercado emergente de tecnologías cuánticas de alta especialidad."
 
   - name: "Dr. Javier Andres Orduz Ducuara"
