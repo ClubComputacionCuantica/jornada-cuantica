@@ -3,23 +3,21 @@ title: "Jornada de Investigación y Divulgación en Información y Cómputo Cuá
 layout: single
 permalink: /
 author_profile: false
-classes:
-  - no-masthead
 breadcrumbs: false
 toc: true
+classes:
+  - no-masthead
 header:
-  image: /assets/images/event-banner.jpeg
-
+  image: "assets/images/event-banner.jpeg"
 sidebar:
-  - title: "" 
-
+  - title: ""
 ponentes:
   - name: "Claudia Zendejas-Morales"
     role: "Estudiante de posgrado en Quantum Information Science"
     affiliation: "University of Copenhagen / Technical University of Denmark (DTU)"
     talk_title: "Cuando el kernel cuántico deja de aprender: concentración exponencial y estrategias de mitigación"
     duration: "45-50 minutos"
-    image_path: "/assets/images/Claudia.jpeg"
+    image_path: "assets/images/Claudia.jpeg"
     linkedin: "https://www.linkedin.com/in/clauziuz/"
     bio: "Claudia Zendejas-Morales es física e ingeniera en computación, reconocida en el *Quantum 100* de la UNESCO (IYQ 2025). Posee dos MicroMasters en Tecnologías Cuánticas por Purdue University y es desarrolladora certificada de Qiskit. Como miembro activo de QWorld, ha coordinado programas globales como QClass23/24 y actualmente co-lidera el área de QEducation. Sus intereses de investigación abarcan la información cuántica teórica, el aprendizaje automático cuántico (QML) y los fundamentos matemáticos de la computación cuántica, centrando actualmente sus estudios de posgrado en Copenhague."
 
@@ -30,7 +28,11 @@ ponentes:
     duration: "50 minutos"
     image_path: "/assets/images/Salvador.jpg"
     linkedin: "https://www.linkedin.com/in/venegasandraca/"
-    bio: "Salvador Elías Venegas Andraca es pionero de la computación cuántica en México y una autoridad mundial en el área. Doctor por la Universidad de Oxford con estancia postdoctoral en Harvard, es Investigador Nivel 3 del SNI y miembro del Quantum Economy Network del Foro Económico Mundial. Es autor de libros fundamentales como *Quantum Walks for Computer Scientists* y cuenta con más de tres mil citas en su campo. Su labor integra la academia y la industria, centrándose en algoritmos cuánticos, caminatas cuánticas, ciberseguridad y el análisis del mercado emergente de tecnologías cuánticas de alta especialidad."
+    website: "https://venegas-andraca.org/"
+    top_scientist: "https://topscinet.com/scientist_profile/Venegas-Andraca,%20Salvador%20E./2003/?stype=career_data"
+    lab: "https://unconventionalcomputing.org/"
+    editor_qip: "https://link.springer.com/journal/11128/editorial-board"
+    bio: "Salvador Elías Venegas Andraca es pionero de la computación cuántica en México y una autoridad mundial en el área. Doctor por la Universidad de Oxford, con estancia posdoctoral en Harvard, es investigador nivel 3 del SNI y miembro de la Quantum Economy Network del Foro Económico Mundial. Es autor de libros fundamentales como Quantum Walks for Computer Scientists y cuenta con más de tres mil citas en su campo. Su labor integra la academia y la industria, centrándose en algoritmos cuánticos, caminatas cuánticas, ciberseguridad y el análisis del mercado emergente de tecnologías cuánticas de alta especialización."
 
   - name: "Dr. Javier Andres Orduz Ducuara"
     role: "Profesor"
@@ -38,8 +40,8 @@ ponentes:
     talk_title: "Criptografía en la era cuántica: Una perspectiva matemática"
     duration: "45-50 minutos"
     image_path: "/assets/images/Javier.jpeg"
-    github: "https://jaorduz.github.io/" 
-    bio: "El Dr. Javier Orduz es un investigador especializado en computación cuántica, inteligencia artificial y ciencia de datos. Su trabajo se enfoca en transformar conceptos matemáticos complejos en soluciones prácticas para sistemas inteligentes y seguridad digital. Como impulsor de iniciativas para acercar a más personas estas tecnologías, fundó QMexico una comunidad que promueve la educación cuántica en América Latina, y Qaldas, donde se desarrollan proyectos de IA y computación avanzada. Su labor integra la investigación y la docencia para inspirar a nuevas generaciones en ciencias y tecnología."
+    website: "https://jaorduz.github.io/" 
+    bio: "El Dr. Javier Orduz es un investigador especializado en computación cuántica, inteligencia artificial y ciencia de datos. Su trabajo se enfoca en transformar conceptos matemáticos complejos en soluciones prácticas para sistemas inteligentes y seguridad digital. Como impulsor de iniciativas para acercar estas tecnologías a más personas, fundó QMexico, una comunidad que promueve la educación cuántica en América Latina, y Qaldas, donde se desarrollan proyectos de IA y computación avanzada. Su labor integra la investigación y la docencia para inspirar a nuevas generaciones en ciencia y tecnología."
 
 ---
 ## Presentación
@@ -93,8 +95,20 @@ La jornada contará con ponencias invitadas por parte de especialistas en inform
             <a href="{{ ponente.linkedin }}" target="_blank" rel="noopener noreferrer" style="font-size: 0.9em; text-decoration: none; color: #0077b5;">LinkedIn</a>
           {% endif %}
 
-          {% if ponente.github %}
-            <a href="{{ ponente.github }}" target="_blank" rel="noopener noreferrer" style="font-size: 0.9em; text-decoration: none; color: #333;"> GitHub / Web</a>
+          {% if ponente.website %}
+            <a href="{{ ponente.website }}" target="_blank" rel="noopener noreferrer" style="font-size: 0.9em; text-decoration: none; color: #0077b5;"> Sitio personal</a>
+          {% endif %}
+
+          {% if ponente.top_scientist %}
+            <a href="{{ ponente.top_scientist }}" target="_blank" rel="noopener noreferrer" style="font-size: 0.9em; text-decoration: none; color: #0077b5;">Top 2% Scientists</a>
+          {% endif %}
+
+          {% if ponente.lab %}
+            <a href="{{ ponente.lab }}" target="_blank" rel="noopener noreferrer" style="font-size: 0.9em; text-decoration: none; color: #0077b5;"> Research Lab</a>
+          {% endif %}
+
+          {% if ponente.editor_qip %}
+            <a href="{{ ponente.editor_qip }}" target="_blank" rel="noopener noreferrer" style="font-size: 0.9em; text-decoration: none; color: #0077b5;">QIP Journal (Editor)</a>
           {% endif %}
         </div>
       </div> 
