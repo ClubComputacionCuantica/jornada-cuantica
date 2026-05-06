@@ -182,17 +182,21 @@ Estas plantillas son únicamente una referencia y no constituyen un formato obli
 | **Notificación de aceptación** | 13 al 20 de mayo de 2026  |
 | **Evento** | 5 de junio de 2026 |
 
-## Programa (Preliminar)
 
-La jornada contempla las siguientes actividades:
+## Programa Oficial
 
-- Apertura
-- Conferencias plenarias
-- Sesión de pósters
-- Espacio de café e intercambio académico
-- Cierre
+La jornada se llevará a cabo en el Auditorio Dr. Víctor Flores Maldonado con el siguiente cronograma:
 
-> El programa detallado y horarios específicos por anunciar.
+| Horario | Actividad |
+|:---:|---|
+| **11:30 - 11:45** | **Recepción y bienvenida** |
+| **11:45 - 12:00** | **Inauguración** |
+| **12:00 - 13:00** | **Conferencia Plenaria I** (pregrabada) y sesión de preguntas en vivo<br>*Claudia Zendejas-Morales* |
+| **13:00 - 14:00** | **Receso y primera sesión de pósters** e intercambio académico |
+| **14:00 - 15:00** | **Conferencia Plenaria II**<br>*Dr. Javier Andres Orduz Ducuara* |
+| **15:00 - 16:00** | **Conferencia Plenaria III**<br>*Dr. Salvador Elías Venegas Andraca* |
+| **16:00 - 17:00** | **Segunda sesión de pósters** e intercambio académico |
+| **17:00 - 17:10** | **Clausura** |
 
 ## Comité científico
 
